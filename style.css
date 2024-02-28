@@ -1,0 +1,66 @@
+body{
+    background:  white;
+    font-family: 'Times New Roman';
+    line-height: 25px;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+    border: solid;
+    border-radius: 10%;
+}
+
+hr{
+    border: solid 1px;
+}
+
+h1{
+    font-style: italic;
+    font-weight: bold;
+    border: solid;
+    background:  lightblue;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+h2{
+    text-decoration:underline;
+    text-align: center;
+}
+
+h3{
+    font-style: italic;
+    text-decoration:underline; 
+}
+
+h3.indice{
+    padding-left: 25px;
+}
+
+.contenitore{
+    position: fixed;
+    border: solid;
+    float: left;
+    height: 260px;
+    width: 200px;
+    background: lightgoldenrodyellow;
+    border-radius: 10%;
+}
+
+.sotto{
+    font-style: italic;
+    font-weight: bold;
+    border: solid;
+    background:  lightblue;
+    margin: auto;
+    padding: 10px;
+    position: sticky;
+}
+
+.scrollo{
+        margin-left: 270px;
+        padding: 10px;
+        overflow-y: auto;
+}
